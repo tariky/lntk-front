@@ -1,8 +1,12 @@
 import React from "react";
 
-export default function BigItem({ title }) {
+export default function BigItem({ title, setToggle, toggle }) {
   return (
-    <div className="d-flex flex-row align-items-center p-3 border mb-2">
+    <div
+      className="d-flex flex-row align-items-center p-3 border mb-2"
+      onClick={() => setToggle(!toggle)}
+      style={{ cursor: "pointer" }}
+    >
       <img
         src="http://placehold.it/200x200"
         alt="img"
