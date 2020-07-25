@@ -21,7 +21,7 @@ export default function Cart({ cartToggle, setCartToggle }) {
           <div className="d-flex flex-row align-items-center pb-2 border-bottom">
             <img
               src="http://placehold.it/200x300"
-              alt="product"
+              alt="product tets"
               style={{ width: "80px", height: "110px", objectFit: "cover" }}
             />
             <div className="d-flex flex-column ml-3">

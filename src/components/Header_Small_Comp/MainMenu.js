@@ -66,7 +66,7 @@ export default function MainMenu({ mainMenu, setMainMenu }) {
                 src="https://image.flaticon.com/icons/svg/145/145802.svg"
                 alt="facebook-icon"
                 style={{ width: "32px", height: "auto" }}
-                className="mr-2"
+                className="mr-2 "
               />
             </div>
             <div className="p-2">
